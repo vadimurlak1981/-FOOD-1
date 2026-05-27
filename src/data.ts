@@ -1,5 +1,11 @@
 import { MenuItem, Review } from './types';
 
+// Import images as ES modules so Vite can resolve, optimize, and bundle them correctly for production/GitHub
+import shawarmaPremium from './assets/images/shawarma_premium_1779737971612.png';
+import nashaFoodHero from './assets/images/nasha_food_hero_1779737953067.png';
+import frenchFriesPremium from './assets/images/french_fries_premium_1779737989563.png';
+import garlicSaucePremium from './assets/images/garlic_sauce_premium_1779738007320.png';
+
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: 'sh_classic',
@@ -8,7 +14,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Соковита курка гриль, свіжа хрумка капуста, огірки, томати та наш легендарний сімейний часниковий соус на кришталево тонкому лаваші.',
     descriptionEn: 'Juicy rotisserie chicken, crisp cabbage, cucumbers, ripe tomatoes, and our family secret garlic sauce rolled in toasted pita bread.',
     price: 135,
-    image: '/src/assets/images/shawarma_premium_1779737971612.png',
+    image: shawarmaPremium,
     category: 'shawarma',
     badgeUk: 'Класика',
     badgeEn: 'Classic Choice',
@@ -21,7 +27,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Максимум добірного м’яса, сир моцарела, хрумка карамелізована цибуля, свіжа зелень та екстра-порція фірмового часникового соусу. Шедевр смаку.',
     descriptionEn: 'Double rotisserie meat, melted mozzarella, caramelized onions, fresh herbs, and an extra splash of our legendary garlic sauce. Ultimate craft.',
     price: 185,
-    image: '/src/assets/images/nasha_food_hero_1779737953067.png',
+    image: nashaFoodHero,
     category: 'shawarma',
     badgeUk: 'Бестселер 🔥',
     badgeEn: 'Bestseller',
@@ -34,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Квартет сирів (моцарела, чеддер, сулугуні, пармезан), поєднаний з фірмовим часниковим соусом та ніжним філе гриль. Сексуально розплавлене задоволення.',
     descriptionEn: 'Melted cheese combo (mozzarella, cheddar, sulguni, parmesan), paired elegantly with rotisserie chicken and signature garlic sauce. Absurdly cheesy.',
     price: 170,
-    image: '/src/assets/images/shawarma_premium_1779737971612.png',
+    image: shawarmaPremium,
     category: 'shawarma',
     badgeUk: 'Сирний Бум 🧀',
     badgeEn: 'Cheesy Delight',
@@ -47,7 +53,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Коломийський вогонь: соковите м’ясо, гострі перці халапеньйо, хрумкі чіпси цибулі, пікантний кунжутними соус та потрійна доза часникового соусу.',
     descriptionEn: 'Kolomyia fiery style: spicy jalapeños, crispy onion bits, spicy sauce, and active garlic splash. Only for real flavor seekers.',
     price: 160,
-    image: '/src/assets/images/shawarma_premium_1779737971612.png',
+    image: shawarmaPremium,
     category: 'shawarma',
     badgeUk: 'Дуже Гостро 🌶️',
     badgeEn: 'Extremely Spicy',
@@ -60,7 +66,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Гаряча, ідеально хрустка зовні та ніжна всередині картопелька, посипана морською сіллю та дрібкою ароматного чебрецю.',
     descriptionEn: 'Sizzling hot fries, golden crispy outside and fluffy inside, served with a dusting of sea salt and aromatic thyme.',
     price: 75,
-    image: '/src/assets/images/french_fries_premium_1779737989563.png',
+    image: frenchFriesPremium,
     category: 'sides',
     badgeUk: 'Хрумка',
     badgeEn: 'Perfect Crunch',
@@ -73,7 +79,7 @@ export const MENU_ITEMS: MenuItem[] = [
     descriptionUk: 'Той самий культовий часниковий соус у фірмовій баночці. Секретний рецепт, який завоював любов Коломиї. Свіжа зелень та насичена ніжність.',
     descriptionEn: 'The core legend. Extra jar of our secret home-crafted garlic paste. Rich, creamy, intense flavor that Kolomyia talks about.',
     price: 30,
-    image: '/src/assets/images/garlic_sauce_premium_1779738007320.png',
+    image: garlicSaucePremium,
     category: 'sauces',
     badgeUk: 'Душа бренду 🌟',
     badgeEn: 'The Legend',
