@@ -3,6 +3,9 @@ import { useApp } from '../context/AppContext';
 import { Star, ShieldCheck, CornerDownRight, Flame } from 'lucide-react';
 import { motion } from 'motion/react';
 
+import nashaFoodHero from '../assets/images/nasha_food_hero_1779737953067.png';
+import shawarmaPremium from '../assets/images/shawarma_premium_1779737971612.png';
+
 export const Hero: React.FC = () => {
   const { language, setActivePage } = useApp();
 
@@ -24,7 +27,7 @@ export const Hero: React.FC = () => {
       {/* Cinematic Background Image with rich linear masks */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/nasha_food_hero_1779737953067.png"
+          src={nashaFoodHero}
           alt="Cinematic gourmet shawarma preparation"
           className="w-full h-full object-cover object-center opacity-40 md:opacity-50 scale-105 select-none pointer-events-none"
           referrerPolicy="no-referrer"
@@ -189,7 +192,7 @@ export const Hero: React.FC = () => {
 
             <div className="relative overflow-hidden rounded-xl aspect-[1/1]">
               <img
-                src="/src/assets/images/shawarma_premium_1779737971612.png"
+                src={shawarmaPremium}
                 alt="Perfect grilled shawarma"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
