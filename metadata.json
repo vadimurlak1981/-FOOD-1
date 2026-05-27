@@ -1,0 +1,6 @@
+{
+  "name": "наша FOOD",
+  "description": "Luxury street-food brand in Kolomyia, Ukraine. Famous for extremely tasty shawarma, signature garlic sauce, and bold premium presentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
